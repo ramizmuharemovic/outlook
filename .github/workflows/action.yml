@@ -30,4 +30,3 @@ jobs:
           artifacts: "Outlook.deb"
           bodyFile: "body.md"
           token: ${{ secrets.GITHUB_TOKEN}}
-
