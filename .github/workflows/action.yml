@@ -20,3 +20,10 @@ jobs:
           mv outlook-linux-x64 Outlook/usr/share/outlook
           cp desktop/outlook.desktop  /usr/share/applications/
           dpkg-deb --build Outlook
+
+      - name: "Create Release"
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: "Outlook.deb"
+          bodyFile: "body.md"
+          token: ${{ secrets.YOUR_GITHUB_TOKEN }}
