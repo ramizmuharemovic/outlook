@@ -14,8 +14,8 @@ jobs:
           sudo npm install nativefier -g
           nativefier --name outlook --platform linux --arch x64 --width 1600 --height 900 --tray  --disable-old-build-warning-yesiknowitisinsecure --disable-dev-tools --single-instance https://outlook.office365.com/mail/
           cp icon/icon.png outlook-linux-x64/resources/app/
-          mkdir Outlook/usr/share/applications/
-          mkdir Outlook/DEBIAN
+          mkdir -p Outlook/usr/share/applications/
+          mkdir -p Outlook/DEBIAN
           cp debian/control Outlook/DEBIAN/control
           mv outlook-linux-x64 Outlook/usr/share/outlook
           cp desktop/outlook.desktop  /usr/share/applications/
