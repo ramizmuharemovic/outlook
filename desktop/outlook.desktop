@@ -2,6 +2,6 @@
 Type=Application
 Name=Outlook
 Path=/usr/share/outlook
-Exec=/usr/share/outlook/Outlook
+Exec=/usr/share/outlook/outlook
 Icon=/usr/share/outlook/resources/app/icon.png
 Categories=Network;
