@@ -21,7 +21,7 @@ jobs:
           mkdir -p Outlook/DEBIAN
           cp debian/control Outlook/DEBIAN/control
           mv outlook-linux-x64 Outlook/usr/share/outlook
-          cp desktop/outlook.desktop  /usr/share/applications/
+          cp desktop/outlook.desktop  Outlook/usr/share/applications/
           dpkg-deb --build Outlook
 
       - name: "Create Release"
