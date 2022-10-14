@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Outlook
+Path=/usr/share/outlook
+Exec=/usr/share/outlook/Outlook
+Icon=/usr/share/outlook/resources/app/icon.png
+Categories=Network;

@@ -1,0 +1,5 @@
+Package: outlook
+Version: 1.0
+Maintainer: ramiz
+Description: Outlook mail
+Architecture: amd64
