@@ -13,5 +13,5 @@ jobs:
           sudo apt install npm -y
           sudo npm install nativefier -g
           nativefier --name outlook --platform linux --arch x64 --width 1600 --height 900 --tray  --disable-old-build-warning-yesiknowitisinsecure --disable-dev-tools --single-instance https://outlook.office365.com/mail/
-          cd outlook-linux-x64/outlook/
+          cd outlook-linux-x64/resources/app/
           ls
